@@ -6,6 +6,13 @@
   letter-spacing: 6px;
   font-size: 50px;
   text-align: center;
+  padding-bottom: 20px;
+}
+
+/* transparent box on index page */
+.box-transparent {
+    padding: 25px;
+    background-color: rgba(2, 0, 0, 0.4);  
 }
 
 .header-img {
@@ -22,6 +29,7 @@ html {
   color: #000000;
 }
 
+/* styling for index bg image */
 .bg {
   background-image: url("/img/patternCopy.jpg");
   height: 100%;
@@ -31,11 +39,8 @@ html {
   background-size: cover;
 }
 
-.content-center {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-}
+
+
 
 .navContainer {
   position: absolute;
@@ -87,14 +92,14 @@ html {
   color: #f1f1f1;
 }
 
-
-
+/* index anchor elements */
 a {
   color: #ffffff;
   padding: 0px 8px;
   font-size: 14px;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
+  letter-spacing: 2px;
 }
 
 a:hover {
@@ -107,7 +112,7 @@ a:hover {
 .fab, .far {
   color: #ffffff;
   font-size: 20px;
-  padding: 6px;
+  padding: 5px;
   padding-top: 15px;
 }
 
@@ -115,12 +120,6 @@ a:hover {
   color: #f8dfdf;
 }
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 h2,
 h3 {
