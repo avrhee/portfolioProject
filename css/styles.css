@@ -2,7 +2,6 @@
 .header-font {
   font-family: Helvetica, Sans-Serif;
   color: white;
-  font-weight: ;
   letter-spacing: 6px;
   font-size: 50px;
   text-align: center;
@@ -76,6 +75,7 @@ html {
   position: fixed;
   top: 0;
   width: 100%;
+  
 }
 
 .navbar a {
@@ -154,5 +154,4 @@ header h2 {
 }
 
 .carousel {
-  border: ;
 }
