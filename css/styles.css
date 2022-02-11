@@ -8,11 +8,12 @@
   padding-bottom: 30px;
 }
 
-
+/* styling for header image on contact page */
 .top-header {
-  object-fit: contain;
+  object-fit: cover;
   width: 100%;
-  height: 150px;
+  height: 65%;
+  margin: auto;
 } 
 
 /* styling for index bg image */
@@ -38,10 +39,11 @@
   top: 0;
   width: 100%;
   padding: 20px;
-  
+  position: fixed;
+  z-index: 100;
 }
 
-/* nav bar elements */
+/* nav bar anchor elements */
 .navbar a {
   color: #000000;
   font-size: 15px;
@@ -55,9 +57,8 @@
 a {
   color: #ffffff;
   padding: 0px 8px;
-  font-size: 14px;
+  font-size: 15px;
   font-family: 'Lato', sans-serif;
-  font-weight: bold;
   letter-spacing: 2px;
 }
 
@@ -75,12 +76,11 @@ a:hover {
   padding-top: 15px;
 }
 
+/* instragram font awesome style on index page */
 .fab:hover, .far:hover {
   color: #f8dfdf;
 }
 
-.carousel {
-}
 
 /* jumbotron on shop page */
 .jumbotron {
@@ -88,18 +88,6 @@ a:hover {
   padding: 0px;
 }
 
-#header-test {
-  background: url("/img/amy-2.JPG");
-  
-
-  
-  object-position: 50% 50%;
-  /* 
-  background-image: no-repeat;
-  object-fit: cover;
-  image-rendering: pixelated;
- background: url("imgs/header.jpeg") center center / cover no-repeat; */
-}
 
 /* card for shop page */
 .card {
@@ -113,6 +101,7 @@ a:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  
 }
 
 .about-container {
