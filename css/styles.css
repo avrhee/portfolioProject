@@ -31,25 +31,20 @@
   background-size: cover;
 }
 
-
+/* nav bar elements */
 .navbar {
-  overflow: hidden;
-  background-color: white;
+  background-color: #ffffff;
   color: #000000;
   top: 0;
   width: 100%;
+  padding: 20px;
   
 }
 
 /* nav bar elements */
 .navbar a {
-  float: left;
-  display: block;
   color: #000000;
-  text-align: center;
-  padding: 15px 18px;
-  text-decoration: none;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .navbar a:hover {
@@ -104,4 +99,23 @@ a:hover {
   object-fit: cover;
   image-rendering: pixelated;
  background: url("imgs/header.jpeg") center center / cover no-repeat; */
+}
+
+/* card for shop page */
+.card {
+  border: 1px solid #c9c9c9;
+  border-radius: 7px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* image on about page */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-container {
+  font-size: 14px;
+  text-align: center;
 }
