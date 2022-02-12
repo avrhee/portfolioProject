@@ -1,6 +1,6 @@
 /* styling for index page */
 .header-font {
-  font-family: Helvetica, Sans-Serif;
+  font-family: 'Averia Serif Libre', cursive;
   color: white;
   letter-spacing: 6px;
   font-size: 50px;
@@ -12,7 +12,7 @@
 .top-header {
   object-fit: cover;
   width: 100%;
-  height: 65%;
+  height: 70%;
   margin: auto;
 } 
 
@@ -34,8 +34,8 @@
 
 /* nav bar elements */
 .navbar {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #000000;
+  color: #ffffff;
   top: 0;
   width: 100%;
   padding: 20px;
@@ -45,19 +45,21 @@
 
 /* nav bar anchor elements */
 .navbar a {
-  color: #000000;
-  font-size: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  
 }
 
 .navbar a:hover {
   color: #f1f1f1;
+  background-color: black;
 }
 
 /* index anchor elements */
 a {
   color: #ffffff;
   padding: 0px 8px;
-  font-size: 15px;
+  font-size: 14px;
   font-family: 'Lato', sans-serif;
   letter-spacing: 2px;
 }
@@ -108,3 +110,14 @@ a:hover {
   font-size: 14px;
   text-align: center;
 }
+
+.site-footer {
+  background-image: linear-gradient(#808080, #ffffff);
+  padding: 40px;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev /*, .carousel-indicators */ {
+      filter: invert(100%);
+  }
+
