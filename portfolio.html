@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <script src="https://kit.fontawesome.com/3e8a8b46f0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <!-- JavaScript-->
     <script src="JavaScript/javascript.js"></script>
@@ -43,21 +44,26 @@
 
     <div class="w3-content" style="max-width:1000px">
       <img class="mySlides" src="/img/sunset.jpg" style="width:50%">
-      <img class="mySlides" src="img/skate.jpg" style="width:50%">
-      <img class="mySlides" src="img/sun.jpeg" style="width:50%">
+      <img class="mySlides" src="img/skate.jpg" style="width:50%; display: none;">
+      <img class="mySlides" src="img/sun.jpeg" style="width:50%; display: none;">
+      <img class="mySlides" src="img/heart.jpeg" style="width:50%; display: none;">
     
       <div class="w3-row-padding w3-section">
-        <div class="w3-col s4">
-          <img class="demo w3-opacity" src="img/sunset.jpg"
-          style="width:50%" onclick="currentDiv(1)">
+        <div class="w3-col s3">
+          <img class="demo w3-opacity w3-opacity-off" src="img/sunset.jpg"
+          style="width:40%" onclick="currentDiv(1)">
         </div>
-        <div class="w3-col s4">
+        <div class="w3-col s3">
           <img class="demo w3-opacity" src="img/skate.jpg"
-          style="width:50%;display:none" onclick="currentDiv(2)">
+          style="width:40%" onclick="currentDiv(2)">
         </div>
-        <div class="w3-col s4">
+        <div class="w3-col s3">
           <img class="demo w3-opacity" src="img/sun.jpeg"
-          style="width:50%;display:none" onclick="currentDiv(3)">
+          style="width:40%" onclick="currentDiv(3)">
+        </div>
+        <div class="w3-col s3">
+          <img class="demo w3-opacity" src="img/heart.jpeg"
+          style="width:40%" onclick="currentDiv(4)">
         </div>
       </div>
     </div>
